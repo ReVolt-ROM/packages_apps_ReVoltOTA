@@ -19,7 +19,7 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">Paranoid OTA</string>
+  <string name="app_name">ReVolt OTA</string>
   <string name="title_checking">Перевірка...</string>
   <string name="check_for_updates">Перевірити</string>
   <string name="no_additional_info">Немає додаткової інформації</string>
@@ -30,7 +30,7 @@
   <string name="rom_new_version">Знайдено оновлення прошивки!</string>
   <string name="gapps_new_version">Знайдено оновлення додатків Google!</string>
   <string name="no_updates">Оновлення системи не знайдені</string>
-  <string name="system_update_found">Оновлення системи знайдено і готове до закачування.\nБудь ласка перевірте повідомлення, які могли з\'явитися. Вони приведуть вас до програми оновлень ParanoidOTA, за допомогою якої Ви зможете завантажити і/або встановити оновлення.\n\nОновлень знайдено:\n%1$s</string>
+  <string name="system_update_found">Оновлення системи знайдено і готове до закачування.\nБудь ласка перевірте повідомлення, які могли з\'явитися. Вони приведуть вас до програми оновлень ReVoltOTA, за допомогою якої Ви зможете завантажити і/або встановити оновлення.\n\nОновлень знайдено:\n%1$s</string>
   <string name="system_title">Інформація про систему</string>
   <string name="system_rom">Версія ROM: %1$s</string>
   <string name="system_gapps">Версія додатків Google: %1$s %2$s</string>

@@ -19,7 +19,7 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">Paranoid OTA</string>
+  <string name="app_name">ReVolt OTA</string>
   <string name="title_checking">Ellenőrzés folyamatban...</string>
   <string name="check_for_updates">Ellenőrzés</string>
   <string name="no_additional_info">Nincs további információ</string>
@@ -30,7 +30,7 @@
   <string name="rom_new_version">Új ROM frissítés érhető el!</string>
   <string name="gapps_new_version">Új Google Apps frissítés érhető el!</string>
   <string name="no_updates">Nincs elérhető rendszer frissítés</string>
-  <string name="system_update_found">Egy új rendszer frissítés érhető el és készen áll a letöltésre.\nEllenőrizze a megjelent értesítéseket. Az értesítés a ParanoidOTA alkalmazáshoz vezet, ahol le tudja tölteni és/vagy telepíteni a frissítést.\n\nElérhető frissítések:\n%1$s</string>
+  <string name="system_update_found">Egy új rendszer frissítés érhető el és készen áll a letöltésre.\nEllenőrizze a megjelent értesítéseket. Az értesítés a ReVoltOTA alkalmazáshoz vezet, ahol le tudja tölteni és/vagy telepíteni a frissítést.\n\nElérhető frissítések:\n%1$s</string>
   <string name="system_title">Rendszer információ</string>
   <string name="system_rom">ROM verziója: %1$s</string>
   <string name="system_gapps">Google Apps verziója: %1$s %2$s</string>

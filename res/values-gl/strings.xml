@@ -19,7 +19,7 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">Paranoid OTA</string>
+  <string name="app_name">ReVolt OTA</string>
   <string name="title_checking">comprobando ...</string>
   <string name="check_for_updates">comprob ..</string>
   <string name="no_additional_info">ningunha información adicional</string>
@@ -30,7 +30,7 @@
   <string name="rom_new_version">nova actualización da ROM atopou!</string>
   <string name="gapps_new_version">Nova actualización aplicacións de Google atopou!</string>
   <string name="no_updates">sistema non hai atopados actualizacións de</string>
-  <string name="system_update_found">Unha nova actualización do sistema se atopou e está listo para descargar. \nPor favor comprobe as notificacións que poden aparecer. Eles van leva-lo a ParanoidOTA de onde poderá descargar e / ou instalar a actualización \ n \ nUpdate (s) atopados:. \ N% 1 $ s</string>
+  <string name="system_update_found">Unha nova actualización do sistema se atopou e está listo para descargar. \nPor favor comprobe as notificacións que poden aparecer. Eles van leva-lo a ReVoltOTA de onde poderá descargar e / ou instalar a actualización \ n \ nUpdate (s) atopados:. \ N% 1 $ s</string>
   <string name="system_title">información do sistema</string>
   <string name="system_rom">Versión ROM: %1$s</string>
   <string name="system_gapps">Google Apps versión: %1$s %2$s</string>

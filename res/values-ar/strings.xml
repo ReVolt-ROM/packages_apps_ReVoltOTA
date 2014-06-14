@@ -19,7 +19,7 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">تحديث بارانويد عبر الهواء</string>
+  <string name="app_name">تحديث ريفولت عبر الهواء</string>
   <string name="title_checking">جاري البحث...</string>
   <string name="check_for_updates">ابحث</string>
   <string name="no_additional_info">لا توجد معلومات إضافية</string>
@@ -30,7 +30,7 @@
   <string name="rom_new_version">العثور على تحديث ROM جديد!</string>
   <string name="gapps_new_version">وجود اصدار تحديث لتطبيقات جوجل!</string>
   <string name="no_updates">لا توجد تحديثات للنظام</string>
-  <string name="system_update_found">تم العثور على تحديث نظام جديد وهو جاهزة للتحميل.\nالرجاء مراجعة التنبيهات التي قد تظهر. حيث سوف تقودك إلى بارانويدوتا من حيث سوف تكون قادر على تحميل و/أو تثبيت التحديث.\n\nالتحديثات الموجودة:\n%1$s</string>
+  <string name="system_update_found">تم العثور على تحديث نظام جديد وهو جاهزة للتحميل.\nالرجاء مراجعة التنبيهات التي قد تظهر. حيث سوف تقودك إلى ريفولت وتا من حيث سوف تكون قادر على تحميل و/أو تثبيت التحديث.\n\nالتحديثات الموجودة:\n%1$s</string>
   <string name="system_title">معلومات النظام</string>
   <string name="system_rom">إصدار الروم: %1$s</string>
   <string name="system_gapps">إصدار تطبيقات قوقل: %1$s %2$s</string>

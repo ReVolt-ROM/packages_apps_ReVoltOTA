@@ -19,7 +19,7 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">Paranoid OTA</string>
+  <string name="app_name">ReVolt OTA</string>
   <string name="title_checking">בודק...</string>
   <string name="check_for_updates">בדוק</string>
   <string name="no_additional_info">אין מידע נוסף</string>
@@ -30,7 +30,7 @@
   <string name="rom_new_version">נמצא עדכון ROM חדש!</string>
   <string name="gapps_new_version">עדכון חדש לאפליקציות Google נמצא!</string>
   <string name="no_updates">לא נמצאו עדכוני מערכת</string>
-  <string name="system_update_found">עדכון מערכת חדש זמין להורדה.\nנא בדוק את ההתראות שהופיעו. הן יובילו אותך לפרנואיד OTA שם תוכל להוריד ו/או להתקין את העדכון.\n\nעדכון/ים שנמצא/ו:\n%1$s</string>
+  <string name="system_update_found">.\nנא בדוק את ההתראות שהופיעו. הן יובילו אותך ReVolt OTA שם תוכל להוריד ו/או להתקין את העדכון.\n\nעדכון/ים שנמצא/ו:\n%1$s</string>
   <string name="system_title">מידע מערכת</string>
   <string name="system_rom">גרסת רום: %1$s</string>
   <string name="system_gapps">גרסת אפליקציות גוגל: %1$s %2$s</string>

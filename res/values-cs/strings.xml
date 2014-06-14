@@ -19,7 +19,7 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">Paranoid OTA</string>
+  <string name="app_name">ReVolt OTA</string>
   <string name="title_checking">Kontrolování...</string>
   <string name="check_for_updates">Zkontrolovat</string>
   <string name="no_additional_info">Žádné další informace</string>
@@ -30,7 +30,7 @@
   <string name="rom_new_version">Byla nalezena aktualizace ROM!</string>
   <string name="gapps_new_version">Nová aktualizace Google apps nalezena!</string>
   <string name="no_updates">Nebyly nalezeny žádné aktualizace</string>
-  <string name="system_update_found">Nová aktualizace systému byla nalezena a je připravena ke stažení. \nProsím zkontrolujte oznámení, které se objevily. Dovedou vás k ParanoidOTA, odkud budete moci stáhnout a/nebo naistalovat aktualizaci.\n\nAktualizace nalezena(y):\n%1$s</string>
+  <string name="system_update_found">Nová aktualizace systému byla nalezena a je připravena ke stažení. \nProsím zkontrolujte oznámení, které se objevily. Dovedou vás k ReVoltOTA, odkud budete moci stáhnout a/nebo naistalovat aktualizaci.\n\nAktualizace nalezena(y):\n%1$s</string>
   <string name="system_title">Informace o systému</string>
   <string name="system_rom">Verze ROM: %1$s</string>
   <string name="system_gapps">Verze Google Apps: %1$s %2$s</string>

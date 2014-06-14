@@ -19,7 +19,7 @@
   along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-  <string name="app_name">Обновление Paranoid</string>
+  <string name="app_name">Обновление ReVolt</string>
   <string name="title_checking">Проверка...</string>
   <string name="check_for_updates">Проверить</string>
   <string name="no_additional_info">Дополнительной информации нет</string>
@@ -30,7 +30,7 @@
   <string name="rom_new_version">Доступно обновление прошивки!</string>
   <string name="gapps_new_version">Доступно обновление приложений Google!</string>
   <string name="no_updates">Обновления системы не найдены</string>
-  <string name="system_update_found">Найдены новые системные обновления, доступные для загрузки.\nПожалуйста, проверьте появившиеся уведомления. Они проведут Вас в программу обновлений Paranoid, с помощью которой можно скачать и/или установить обновления.\n\nНайденные обновления:\n%1$s</string>
+  <string name="system_update_found">Найдены новые системные обновления, доступные для загрузки.\nПожалуйста, проверьте появившиеся уведомления. Они проведут Вас в программу обновлений ReVolt, с помощью которой можно скачать и/или установить обновления.\n\nНайденные обновления:\n%1$s</string>
   <string name="system_title">Сведения о системе</string>
   <string name="system_rom">Версия прошивки: %1$s</string>
   <string name="system_gapps">Версия приложений Google: %1$s %2$s</string>
