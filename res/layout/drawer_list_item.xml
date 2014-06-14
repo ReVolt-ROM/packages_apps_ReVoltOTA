@@ -61,7 +61,8 @@
 	        android:duplicateParentState="true"
 	        android:gravity="center_vertical"
 	        android:textAppearance="?android:attr/textAppearanceListItemSmall"
-	        android:textColor="@color/card_grid_text" />
+	        android:textColor="@color/card_grid_text" 
+	        android:textAllCaps="true" />
 
 	</LinearLayout>
 

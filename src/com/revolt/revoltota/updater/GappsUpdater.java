@@ -117,8 +117,7 @@ public class GappsUpdater extends Updater {
 
     @Override
     public String getDevice() {
-        final String gapps = "GApps/Android " + mRomVersion.getMajor() + "."
-                + mRomVersion.getMinor() + "/";
+        final String gapps = "GApps/Android 4.4/";
         int type = getSettingsHelper().getGappsType(getTypeForSettings());
         switch (type) {
             case SettingsHelper.GAPPS_MICRO :

@@ -46,7 +46,7 @@ public class GooServer implements Server {
     private String mDevice = null;
     private String mError = null;
     private Version mVersion;
-    private boolean mIsRom = false;
+    private boolean mIsRom;
 
     public GooServer(Context context, boolean isRom) {
         mContext = context;
