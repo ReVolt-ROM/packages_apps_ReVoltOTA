@@ -39,7 +39,7 @@ import java.io.Serializable;
  * All the default values not specified above are 0
  *
  * Examples
- * pa_find5-3.99-RC2-20140212.zip
+ * revolt_find5-3.99-RC2-20140212.zip
  * pa_gapps-modular-mini-4.3-20141010-signed.zip
  *
  */
