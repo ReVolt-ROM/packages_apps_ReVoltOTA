@@ -42,7 +42,9 @@ public class RomUpdater extends Updater {
     }
 
     public RomUpdater(Context context, boolean fromAlarm) {
-        super(context, new Server[] { new PaServer() }, fromAlarm);
+        super(context, new Server[] {
+                new PaServer()
+        }, fromAlarm);
     }
 
     @Override

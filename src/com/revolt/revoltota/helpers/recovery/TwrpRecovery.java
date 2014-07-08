@@ -19,13 +19,13 @@
 
 package com.revolt.revoltota.helpers.recovery;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 
 import com.revolt.revoltota.IOUtils;
 import com.revolt.revoltota.Utils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TwrpRecovery extends RecoveryInfo {
 
@@ -45,7 +45,8 @@ public class TwrpRecovery extends RecoveryInfo {
 
     @Override
     public String[] getCommands(Context context, String[] items, String[] originalItems,
-            boolean wipeData, boolean wipeCaches, String backupFolder, String backupOptions) throws Exception {
+            boolean wipeData, boolean wipeCaches, String backupFolder, String backupOptions)
+            throws Exception {
 
         List<String> commands = new ArrayList<String>();
 

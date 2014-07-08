@@ -19,11 +19,11 @@
 
 package com.revolt.revoltota.updater;
 
-import java.io.Serializable;
-
 import com.revolt.revoltota.IOUtils;
 import com.revolt.revoltota.Version;
 import com.revolt.revoltota.updater.Updater.PackageInfo;
+
+import java.io.Serializable;
 
 public class UpdatePackage implements PackageInfo, Serializable {
 

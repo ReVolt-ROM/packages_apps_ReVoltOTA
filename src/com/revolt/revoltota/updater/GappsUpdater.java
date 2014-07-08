@@ -19,10 +19,6 @@
 
 package com.revolt.revoltota.updater;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.util.Properties;
-
 import android.content.Context;
 
 import com.revolt.revoltota.R;
@@ -30,6 +26,10 @@ import com.revolt.revoltota.Utils;
 import com.revolt.revoltota.Version;
 import com.revolt.revoltota.helpers.SettingsHelper;
 import com.revolt.revoltota.updater.server.GooServer;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.Properties;
 
 public class GappsUpdater extends Updater {
 
@@ -45,7 +45,9 @@ public class GappsUpdater extends Updater {
     private String mType;
 
     public GappsUpdater(Context context, boolean fromAlarm) {
-        super(context, new Server[] { new GooServer(context, false) }, fromAlarm);
+        super(context, new Server[] {
+            new GooServer(context, false)
+        }, fromAlarm);
 
         mRomVersion = new Version(RomUpdater.getVersionString(context));
 
@@ -68,7 +70,9 @@ public class GappsUpdater extends Updater {
                     String[] version = versionString.split("-");
                     for (int i = 0; i < version.length; i++) {
                         try {
-                            Integer.parseInt(new String(new char[] {version[i].charAt(0)}));
+                            Integer.parseInt(new String(new char[] {
+                                version[i].charAt(0)
+                            }));
                             mVersion = version[i];
                             break;
                         } catch (NumberFormatException ex) {
@@ -120,14 +124,14 @@ public class GappsUpdater extends Updater {
         final String gapps = "GApps/Android 4.4/";
         int type = getSettingsHelper().getGappsType(getTypeForSettings());
         switch (type) {
-            case SettingsHelper.GAPPS_MICRO :
+            case SettingsHelper.GAPPS_MICRO:
                 return gapps + "Micro-Modular GApps";
-            case SettingsHelper.GAPPS_MINI :
+            case SettingsHelper.GAPPS_MINI:
                 return gapps + "Mini-Modular GApps";
             case SettingsHelper.GAPPS_STOCK:
                 return gapps + "Google Stock GApps";
-            case SettingsHelper.GAPPS_FULL :
-            default :
+            case SettingsHelper.GAPPS_FULL:
+            default:
                 return gapps + "Full-Modular GApps";
         }
     }

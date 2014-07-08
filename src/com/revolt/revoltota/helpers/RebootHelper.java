@@ -19,9 +19,6 @@
 
 package com.revolt.revoltota.helpers;
 
-import java.io.File;
-import java.io.FileOutputStream;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -36,6 +33,9 @@ import android.widget.EditText;
 import com.revolt.revoltota.IOUtils;
 import com.revolt.revoltota.R;
 import com.revolt.revoltota.Utils;
+
+import java.io.File;
+import java.io.FileOutputStream;
 
 public class RebootHelper {
 
@@ -197,7 +197,9 @@ public class RebootHelper {
             File f = new File("/cache/recovery/command");
             f.delete();
 
-            int[] recoveries = new int[] { Utils.TWRP, Utils.CWM_BASED };
+            int[] recoveries = new int[] {
+                    Utils.TWRP, Utils.CWM_BASED
+            };
 
             for (int i = 0; i < recoveries.length; i++) {
                 String file = mRecoveryHelper.getCommandsFile(recoveries[i]);
@@ -222,7 +224,8 @@ public class RebootHelper {
                 } finally {
                     if (os != null) {
                         os.close();
-                        Utils.setPermissions("/cache/recovery/" + file, 0644, android.os.Process.myUid(), 2001);
+                        Utils.setPermissions("/cache/recovery/" + file, 0644,
+                                android.os.Process.myUid(), 2001);
                     }
                 }
             }

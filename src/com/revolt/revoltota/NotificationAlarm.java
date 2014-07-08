@@ -19,12 +19,12 @@
 
 package com.revolt.revoltota;
 
-import com.revolt.revoltota.updater.GappsUpdater;
-import com.revolt.revoltota.updater.RomUpdater;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+
+import com.revolt.revoltota.updater.GappsUpdater;
+import com.revolt.revoltota.updater.RomUpdater;
 
 public class NotificationAlarm extends BroadcastReceiver {
 

@@ -31,7 +31,6 @@ import android.widget.TextView;
 
 import com.revolt.revoltota.R;
 
-
 public abstract class Card extends LinearLayout {
 
     private Context mContext;

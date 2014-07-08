@@ -19,12 +19,12 @@
 
 package com.revolt.revoltota.updater;
 
-import java.util.List;
+import com.paranoid.paranoidota.Version;
+import com.paranoid.paranoidota.updater.Updater.PackageInfo;
 
 import org.json.JSONObject;
 
-import com.revolt.revoltota.Version;
-import com.revolt.revoltota.updater.Updater.PackageInfo;
+import java.util.List;
 
 public interface Server {
 

@@ -19,18 +19,18 @@
 
 package com.revolt.revoltota.updater.server;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import com.revolt.revoltota.Version;
 import com.revolt.revoltota.updater.Server;
 import com.revolt.revoltota.updater.UpdatePackage;
 import com.revolt.revoltota.updater.Updater.PackageInfo;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class PaServer implements Server {
 
@@ -44,7 +44,9 @@ public class PaServer implements Server {
     public String getUrl(String device, Version version) {
         mDevice = device;
         mVersion = version;
-        return String.format(URL, new Object[] { device });
+        return String.format(URL, new Object[] {
+            device
+        });
     }
 
     @Override
