@@ -19,8 +19,8 @@
 
 package com.revolt.revoltota.updater;
 
-import com.paranoid.paranoidota.Version;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
+import com.revolt.revoltota.Version;
+import com.revolt.revoltota.updater.Updater.PackageInfo;
 
 import org.json.JSONObject;
 
